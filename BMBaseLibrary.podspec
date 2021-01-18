@@ -83,7 +83,8 @@ Pod::Spec.new do |s|
     ss.public_header_files = "Source/BMModule/**/*.h"
     ss.resources = 'Source/BMModule/Modal/SVProgressHUD/SVProgressHUD.bundle'
     ss.requires_arc  = true
-    ss.dependency "Realm",'3.1.0'
+    # ss.dependency "Realm",'3.1.0'
+    ss.dependency "Realm",'3.17.3'
     ss.dependency "BindingX",'1.0.1'
     ss.dependency 'TZImagePickerController', '1.9.8'
   end
